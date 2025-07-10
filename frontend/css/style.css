@@ -18,6 +18,10 @@
 .main-color{
     background: linear-gradient(90deg, #2ACFCF , #7B5FFF 100%);
 }
+.danger-color{
+    background: linear-gradient(90deg, #520303 , #a11212 100%) !important;
+
+}
 .s-3{
     font-size:25px !important;
 }
@@ -372,7 +376,10 @@ top:4%
 
 /* ---------------- popUp section ------------------------- */
 
-#popUpSection{
+/* #popUpSection{
     background: linear-gradient(90deg, #2ACFCF , #7B5FFF 100%) !important;
     /* display: inline-block; */
+/* }  */
+#errorSection{
+    background: linear-gradient(90deg, #520303 , #a11212 100%) !important;;
 }
