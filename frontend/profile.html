@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQuery.css">
+</head>
+
+<body>
+
+    <div class="content-main-page pt-4 ">
+        <!-- bg-white -->
+        <div class="w-100  position-fixed top-0">
+            <div class="upperPart "><i class="fa-solid fa-arrow-left s-3 cursor"></i>
+                <h2>Hana Mohsen</h2>
+                <i class="fa-solid fa-ellipsis s-3 cursor"></i>
+            </div>
+
+        </div>
+        <div class="info-container round-border ">
+            <div class="profile-info text-center">
+                <div class="profile-image">
+                    <img src="./images/WhatsApp Image 2025-06-25 at 7.22.27 PM.jpeg" alt="profile-image"
+                        class="w-25 rounded-img ">
+                </div>
+
+                <div class="padding-top-2 info">
+                    <h4 class="fw-bold ">387</h4>
+                    <h4 class="light-gray fw-light">posts</h4>
+                </div>
+                <div class="padding-top-2 info">
+                    <h4 class="fw-bold">2.5M</h4>
+                    <h4 class="light-gray fw-light">followers</h4>
+                </div>
+                <div class="padding-top-2 info">
+                    <h4 class="fw-bold">498</h4>
+                    <h4 class="light-gray fw-light">following</h4>
+                </div>
+            </div>
+            <section class="contact-section d-flex align-items-center">
+                <section class="bio-section w-30">
+                    <h1 class="mb-1">HANA</h1>
+                    <i class="fa-solid fa-laptop"></i> <span class="light-gray ">Programmer</span>
+                </section>
+                <section class="follow-section w-70 d-flex justify-content-around">
+                    <button class="follow-btn s-4">Follow</button>
+                    <button class="message-btn s-4"> Message</button>
+                </section>
+            </section>
+
+
+        </div>
+    <section class="posts-section">
+            <div class="posts-container round-border ">
+            <div id="posts" class="posts">
+                <!-- <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football and
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post p-4">
+                        <h2>
+                            sports
+                        </h2>
+                        <h4 class="font-normal">
+                            i love sports and i love to play football
+                        </h4>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+    </section>
+        <footer>
+            <div class="footer-container round-border">
+                <div class="footer-icon ">
+                    <i class="fa-solid fa-house s-3 cursor"></i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-magnifying-glass s-3 cursor"></i>
+                </div>
+                <div class="footer-icon">
+                    <i id="square-plus" class="fa-regular fa-square-plus s-3 cursor"></i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-clapperboard s-3 cursor"></i>
+                </div>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-user s-3 cursor"></i>
+                </div>
+            </div>
+        </footer>
+
+        <section id="add-post-section" class="add-post-section w-100 d-none" >
+            <div class="add-post-form-container round-border  bg-white pb-2 main-color-border">
+                <div class="p-4 d-flex justify-content-end">
+                    <i id="closeForm" class="fa-solid fa-xmark s-3 cursor"></i>
+                </div>
+                <div class="w-90 m-auto">
+                    <form action="" id="postsForm">
+                <input id="postTitle" type="text" placeholder="Title" class="w-100 mb-2 round-border p-2 input-field" required>
+                <textarea id="postContent" name=""  cols="30" rows="10" placeholder="Content" 
+                    class="w-100 mb-2 round-border p-2 input-field" required></textarea>
+                   <select name="" id="postPrivacy" class="w-100 mb-2 round-border p-2 input-field" required>
+                        <option value="">Privacy</option>
+                        <option value="Public">Public</option>
+                        <option value="Only me">Only me</option>
+                        <option value="Friends">Friends</option>
+                        </select>
+                <button id="postFormBtn" type="button" class="w-100 round-border p-2 cursor main-color">Add Post</button>
+            </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="popUpSection" class="popUpSection position-fixed right-0 top-4 p-2 pb-4 round-border d-none">
+            <div class=" d-flex justify-content-end mb-2">
+                    <i id="popUpClose" class="fa-solid fa-xmark s-3 cursor color-white"></i>
+                </div>
+            <h2 class="mb-2 color-white">your post added successfully</h2>
+        </section>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
